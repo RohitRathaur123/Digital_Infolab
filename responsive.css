@@ -1,0 +1,99 @@
+@media (min-width:0px) and (max-width:350px){
+    #sec1 .container,
+    #sec2 .container,
+    #sec3 .container,
+    #sec4 .container,
+    #sec5 .container,
+    #sec6 .container{
+        min-width: 198%;
+    }
+    #sec2 .btn,
+    #sec3 .btn,
+    #sec4 .btn,
+    #sec5 .btn,
+    #sec6 .btn{
+        padding-bottom: 50px;
+    }
+    #serve{
+        min-width: 200%;
+    }
+    #serve .card{
+        display: grid;
+    }
+    #serve .flip-box-inner{
+        padding-left: 200px;
+    }
+    #serve .flip-box {
+        margin-bottom: 10px;
+    }
+    #trend {
+        width: 200%;
+    }
+    #trend .newslft .newslist{
+        display: none;
+    }
+    #trend .newslft .tit{
+        display: none;
+    }
+    #trend .newslft .btn{
+        margin-top: 300px;
+    }
+    #trend .newslft{
+        background-color: #fff;
+        width: 0%;
+    }
+    #trend .flexbox {
+        width: 89%;
+    }
+    #project{
+        min-width: 200%;
+        min-height: 230px;
+    }
+    #project .btn .r, .q, .l, .chat{
+        display: none;
+    }
+    #project .container>a{
+        font-size: 25px;
+        margin-left: 180px;
+    }
+    #project .container>h2{
+        font-size: 45px;
+    }
+    #footer {
+        width: 200%;
+    }
+}
+@media (min-width:351px) and (max-width:670px){
+    #sec1 .container,
+    #sec2 .container,
+    #sec3 .container,
+    #sec4 .container,
+    #sec5 .container,
+    #sec6 .container{
+        min-width: 104%;
+    }
+    #sec2 .btn,
+    #sec3 .btn,
+    #sec4 .btn,
+    #sec5 .btn,
+    #sec6 .btn{
+        padding-bottom: 50px;
+    }
+    #serve{
+        min-width: 104%;
+    }
+    #trend {
+        width: 104%;
+    }
+    #project{
+        min-width: 104%;
+        min-height: 230px;
+    }
+    #project .btn .r, .q, .l, .chat{
+        margin: 15px;
+        margin-top: 40px;
+    }
+    #footer {
+        width: 104%;
+    }
+}
